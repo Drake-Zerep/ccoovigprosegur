@@ -1,0 +1,13 @@
+/* Ajustes visuales personalizados */
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.page__title {
+  color: #cc0000; /* Rojo CCOO */
+}
+
+a {
+  color: #cc0000;
+}
