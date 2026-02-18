@@ -1,0 +1,13 @@
+/* Estilos personalizados para la web */
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+a {
+  color: #cc0000;
+}
+
+.page__title {
+  color: #cc0000;
+}
