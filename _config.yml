@@ -1,0 +1,47 @@
+title: "CCOO Hábitat – Seguridad Privada"
+subtitle: "Prosegur SYS SL – Santa Cruz de Tenerife"
+description: "Noticias, comunicados, anuncios y campaña electoral del sindicato."
+url: "https://TU_USUARIO.github.io"
+baseurl: "/NOMBRE_DEL_REPOSITORIO"
+
+theme: minimal-mistakes-jekyll
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-include-cache
+
+markdown: kramdown
+highlighter: rouge
+
+# Navegación
+collections:
+  posts:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      comments: false
+      share: true
+
+# Menú superior
+navigation:
+  - title: "Inicio"
+    url: /
+  - title: "Noticias"
+    url: /posts/
+  - title: "Comunicados"
+    url: /categories/comunicados/
+  - title: "Anuncios"
+    url: /categories/anuncios/
+  - title: "Elecciones"
+    url: /elecciones/
+  - title: "Quiénes somos"
+    url: /about/
