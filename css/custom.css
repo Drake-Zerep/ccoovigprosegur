@@ -11,3 +11,82 @@ a {
 .page__title {
   color: #cc0000;
 }
+
+/* Tipografía general */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: #333333;
+  background-color: #F5F5F5;
+}
+
+/* Cabecera / título del sitio */
+.site-title,
+.site-title a {
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #CC0000;
+}
+
+/* Subtítulo */
+.site-subtitle {
+  font-weight: 500;
+  color: #555555;
+}
+
+/* Barra de navegación */
+.masthead,
+.masthead__inner-wrap {
+  background-color: #CC0000;
+}
+
+.masthead__menu-item a {
+  color: #FFFFFF !important;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.masthead__menu-item a:hover,
+.masthead__menu-item a:focus {
+  color: #FFFFFF !important;
+  background-color: #990000;
+}
+
+/* Enlaces generales */
+a {
+  color: #CC0000;
+}
+
+a:hover,
+a:focus {
+  color: #990000;
+}
+
+/* Títulos de página y posts */
+.page__title,
+.page__meta,
+.archive__item-title a {
+  color: #CC0000;
+}
+
+/* Tarjetas de posts en listados */
+.archive__item {
+  border-left: 4px solid #CC0000;
+  padding-left: 1rem;
+}
+
+/* Footer */
+.page__footer {
+  background-color: #222222;
+  color: #EEEEEE;
+}
+
+.page__footer a {
+  color: #FFFFFF;
+}
+
+.page__footer a:hover {
+  color: #CCCCCC;
+}
+
