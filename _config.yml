@@ -31,20 +31,6 @@ defaults:
       comments: false
       share: true
 
-# Menú superior
-navigation:
-  - title: "Inicio"
-    url: /
-  - title: "Noticias"
-    url: /posts/
-  - title: "Comunicados"
-    url: /categories/comunicados/
-  - title: "Anuncios"
-    url: /categories/anuncios/
-  - title: "Elecciones"
-    url: /elecciones/
-  - title: "Quiénes somos"
-    url: /about/
 
 sass:
   sass_dir: _sass
