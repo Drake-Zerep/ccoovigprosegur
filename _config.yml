@@ -1,6 +1,7 @@
 title: "CCOO Hábitat – Seguridad Privada"
 subtitle: "Prosegur SYS SL – Santa Cruz de Tenerife"
 description: "Noticias, comunicados, anuncios y campaña electoral del sindicato."
+
 url: "https://drake-zerep.github.io"
 baseurl: "/ccoovigprosegur"
 
@@ -15,7 +16,6 @@ plugins:
 markdown: kramdown
 highlighter: rouge
 
-# Navegación
 collections:
   posts:
     output: true
@@ -31,16 +31,9 @@ defaults:
       comments: false
       share: true
 
-
 sass:
   sass_dir: _sass
   style: compressed
 
 include:
   - assets
-
-
-
-
-
-  
