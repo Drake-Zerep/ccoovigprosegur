@@ -38,4 +38,7 @@ sass:
 include:
   - assets
 
+head_scripts:
+  - /assets/css/custom.css
+
   
