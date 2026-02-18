@@ -90,3 +90,36 @@ a:focus {
   color: #CCCCCC;
 }
 
+/* Fondo con gradiente corporativo */
+body {
+  background: linear-gradient(135deg, #CC0000 0%, #660000 100%);
+  background-attachment: fixed;
+  color: #FFFFFF;
+}
+
+/* Ajuste de tarjetas y cajas para que se lean bien */
+.page,
+.page__content,
+.archive__item,
+.page__inner-wrap {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(6px);
+  border-radius: 8px;
+  padding: 1.5rem;
+}
+
+/* Ajuste de texto para contraste */
+h1, h2, h3, h4, h5, h6,
+.page__title,
+.archive__item-title a {
+  color: #FFFFFF !important;
+}
+
+a {
+  color: #FFD6D6;
+}
+
+a:hover {
+  color: #FFFFFF;
+}
+
