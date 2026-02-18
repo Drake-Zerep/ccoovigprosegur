@@ -1,47 +1,48 @@
-/* Ajustes visuales personalizados */
-
-body {
-  font-family: "Inter", sans-serif;
-}
-
-.page__title {
-  color: #cc0000; /* Rojo CCOO */
-}
-
-a {
-  color: #cc0000;
-}
-
 /* Fondo con gradiente corporativo */
 body {
-  background: linear-gradient(135deg, #CC0000 0%, #660000 100%);
-  background-attachment: fixed;
-  color: #FFFFFF;
+  background: linear-gradient(135deg, #CC0000 0%, #660000 100%) !important;
+  background-attachment: fixed !important;
+  color: #FFFFFF !important;
 }
 
-/* Ajuste de tarjetas y cajas para que se lean bien */
+/* Elimina fondos blancos que tapan el gradiente */
 .page,
 .page__content,
 .archive__item,
-.page__inner-wrap {
-  background: rgba(255, 255, 255, 0.08);
-  backdrop-filter: blur(6px);
-  border-radius: 8px;
-  padding: 1.5rem;
+.page__inner-wrap,
+.masthead,
+.masthead__inner-wrap {
+  background: transparent !important;
+  box-shadow: none !important;
 }
 
-/* Ajuste de texto para contraste */
+/* Tarjetas estilo glassmorphism */
+.page__content,
+.archive__item,
+.page__inner-wrap {
+  background: rgba(255, 255, 255, 0.08) !important;
+  backdrop-filter: blur(6px) !important;
+  border-radius: 8px !important;
+  padding: 1.5rem !important;
+}
+
+/* Tipografía */
+body {
+  font-family: "Inter", sans-serif !important;
+}
+
+/* Títulos */
 h1, h2, h3, h4, h5, h6,
 .page__title,
 .archive__item-title a {
   color: #FFFFFF !important;
 }
 
+/* Enlaces */
 a {
-  color: #FFD6D6;
+  color: #FFD6D6 !important;
 }
 
 a:hover {
-  color: #FFFFFF;
+  color: #FFFFFF !important;
 }
-
