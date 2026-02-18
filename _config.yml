@@ -45,3 +45,10 @@ navigation:
     url: /elecciones/
   - title: "Quiénes somos"
     url: /about/
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+include:
+  - assets
