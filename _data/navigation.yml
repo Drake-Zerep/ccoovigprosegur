@@ -1,0 +1,13 @@
+main:
+  - title: "Inicio"
+    url: /
+  - title: "Noticias"
+    url: /posts/
+  - title: "Comunicados"
+    url: /categories/comunicados/
+  - title: "Anuncios"
+    url: /categories/anuncios/
+  - title: "Elecciones"
+    url: /elecciones/
+  - title: "Quiénes somos"
+    url: /about/
